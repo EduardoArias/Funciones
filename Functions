@@ -1,0 +1,12 @@
+//Funciones de suma, resta, multiplicacion, division
+def add (numero1,numero2):
+  return numero1 + numero 2
+
+ def substract (numero1,numero2):
+  return numero1 - nuemro 2
+
+def multiply (numero1,numero2):
+  return numero1 * numero2
+
+def divide (numero1,numero2):
+  return numero1 / numero2
