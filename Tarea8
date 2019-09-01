@@ -1,0 +1,7 @@
+//Codigo de PY a JS
+const abs = function (num ){
+    return num<0 ? num *-1 : num
+}
+ console.log(abs(22)) //22
+ console.log(abs(0)) //0
+ console.log(abs(-17)) //-17
