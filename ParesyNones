@@ -1,0 +1,40 @@
+import math
+
+lista = [27,35,14,7,9,29,32,4,8,3,13,17,11,22]
+"""for i in range(0, len(lista)):
+
+    print(lista[i])"""
+
+def sumapares():
+
+    temp=0
+
+    for i in range(0, len(lista)):
+
+        if lista[i]%2 == 0:
+
+            temp+=lista[i]
+
+    return temp
+
+def cuadradonones():
+
+    listaNones=[]
+
+    for i in range(0, len(lista)):
+
+        if lista[i]%2 != 0:
+
+            listaNones.append(math.pow(lista[i],2))
+
+    return listaNones
+
+def main():
+
+    print(sumapares())
+
+    print(cuadradonones())
+
+if __name__ == '__main__':
+
+    main()
