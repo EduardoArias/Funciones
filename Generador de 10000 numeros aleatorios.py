@@ -11,4 +11,4 @@ lista = [random.randint(0,100) for _ in range(10000)]
 print(buscar(lista,7))
 print(buscar(lista,99))
 print(buscar(lista,101))
-print(buscar(lista,44)) 
+print(buscar(lista,44))  
